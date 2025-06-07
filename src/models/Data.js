@@ -13,6 +13,6 @@ const dataSchema = new Schema({
     }
 });
 
-const Data = model('User', dataSchema);
+const Data = model('Data', dataSchema);
 
 module.exports = { Data };

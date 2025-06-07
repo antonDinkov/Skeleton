@@ -8,7 +8,6 @@ async function configDatabase() {
     const connectionsString = 'mongodb://localhost:27017/exam-db';
 
     await mongoose.connect(connectionsString, {
-        useNewUrlParser: true,
         useUnifiedTopology: true
     });
 
